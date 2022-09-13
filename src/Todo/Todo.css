@@ -1,0 +1,39 @@
+#todo nav {
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cnav {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #ff4200;
+  border-radius: 10px;
+}
+.cnav #inp1 {
+  width: 80%;
+  height: 100%;
+  padding-left: 20px;
+  font-size: 20px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  /* border: 2px groove #ff4200; */
+  border: none;
+  letter-spacing: 1.2px;
+}
+.cnav #btn {
+  width: 20%;
+  height: 100%;
+  background-color: #ff4200;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 0 10px 10px 0;
+  /* border: 2px groove #ff4200; */
+  cursor: pointer;
+}
